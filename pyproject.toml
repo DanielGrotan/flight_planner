@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flight-planner"
+version = "0.1.0"
+description = ""
+authors = ["DanielGrotan <78237277+DanielGrotan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.35.0"
+osmnx = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
